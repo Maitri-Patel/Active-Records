@@ -4,7 +4,7 @@ require 'bundler/setup'
 require 'active_record'
 require 'sqlite3'
 require 'logger'
-
+require 'faker'
 # Load all of our ActiveRecord::Base objects.
 require_relative 'models/category.rb' # categories table
 require_relative 'models/customer.rb' # customers table
